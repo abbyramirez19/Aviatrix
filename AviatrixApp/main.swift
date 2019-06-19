@@ -17,7 +17,7 @@ func gauges(myPlane : Aviatrix) {
     print("| Fuel:      | \(myPlane.fuelLevel) gallons")
     print("| Max Fuel:  | \(myPlane.maxFuel) gallons")
     print("| MPG:       | \(myPlane.milesPerGallon)")
-//    print("| Fuel Bill: | \(myPlane.fuelCost)")
+    print("| Fuel Bill: | \(myPlane.fuelCost)")
 }
 
 func fly(myPlane : Aviatrix) {
