@@ -9,8 +9,15 @@
 import Foundation
 
 class Aviatrix {
+    var running = false
+    var author : String
+    
+    init(appAuthor:String){
+        author = appAuthor
+    }
     
     func start() -> Bool {
+        running = true
         return true
     }
     
